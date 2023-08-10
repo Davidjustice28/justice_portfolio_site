@@ -1,14 +1,23 @@
 .page {
   background-color: black;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
+h1 {
+  text-align: center;
+}
 .darkMode {
   background-color: black;
   color: white;
 }
 
+small {
+  position: relative;
+  bottom: 10px;
+}
 .lightMode {
   background-color: white;
   color:black;

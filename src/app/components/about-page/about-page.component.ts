@@ -14,7 +14,7 @@ import { Component, Input} from '@angular/core';
       </p>
       <div id="about-pagebuttons">
         <button><a href="https://github.com/Davidjustice28"><img src="/assets/github-mark.png"></a></button>
-        <button>Resume</button>
+        <button onclick="location.href='/assets/resume.pdf'">Resume</button>
       </div>
     </div>
   `,

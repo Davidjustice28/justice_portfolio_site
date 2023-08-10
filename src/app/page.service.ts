@@ -11,7 +11,7 @@ export enum PAGE {
   providedIn: 'root'
 })
 export class PageService {
-  pageSource = new BehaviorSubject(PAGE.PROJECTS)
+  pageSource = new BehaviorSubject(PAGE.ABOUT)
   currentPage!: PAGE
   constructor() { }
 

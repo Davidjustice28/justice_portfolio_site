@@ -1,0 +1,52 @@
+#email-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+button {
+  background-color: black;
+  color: white;
+}
+
+label {
+  font-weight: bold;
+  text-align: left;
+}
+
+@media (max-width: 600px) {
+  #email-form {
+    width: 80vw;
+    gap: 10px
+  }
+  textarea {
+    height: 200px;
+  }
+  input {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 601px) {
+  #email-form {
+    width: 50vw;
+    gap: 20px
+  }
+
+  textarea {
+    height: 20%;
+  }
+
+  input {
+    font-size: large;
+  }
+
+}
