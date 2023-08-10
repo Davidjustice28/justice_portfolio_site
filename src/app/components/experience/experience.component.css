@@ -1,0 +1,24 @@
+.work-experience {
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  color: black;
+}
+
+
+.experience-technologies {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.past {
+  color: #BC13FE;
+}
+
+.current {
+  color: #00E100;
+}

@@ -1,0 +1,30 @@
+.page {
+  background-color: black;
+  color: white;
+}
+
+
+.darkMode {
+  background-color: black;
+  color: white;
+}
+
+.lightMode {
+  background-color: white;
+  color:black;
+}
+
+@media (max-width:500px) {
+  .page {
+    min-height: 90vh;
+    width: 100vw;
+    padding-bottom: 50px;
+  }
+}
+
+@media (min-width: 501px) {
+  .page {
+    width: 80vw;
+    height: 100vh;
+  }
+}

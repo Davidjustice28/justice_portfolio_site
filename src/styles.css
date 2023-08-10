@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: 'Caveat';
+  src: url('assets/Caveat-VariableFont_wght.ttf');
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Caveat';
+}

@@ -1,0 +1,52 @@
+.page {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.darkMode {
+  background-color: black;
+  color: white;
+}
+
+.lightMode {
+  background-color: white;
+  color:black;
+}
+
+h1 {
+  text-align: center;
+}
+
+#project-grid {
+  width: 85%;
+  height: 80%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+@media (max-width:500px) {
+  .page {
+    min-height: 90vh;
+    width: 100vw;
+    padding-bottom: 50px;
+  }
+}
+
+@media (min-width: 501px) {
+  .page {
+    width: 80vw;
+    height: 100vh;
+  }
+
+  h1 {
+    margin-top: -25px;
+  }
+
+}
