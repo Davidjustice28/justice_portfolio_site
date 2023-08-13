@@ -49,4 +49,8 @@ h1 {
     margin-top: -25px;
   }
 
+  #project-grid {
+    overflow: scroll;
+    gap: 20px;
+  }
 }

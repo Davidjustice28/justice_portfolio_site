@@ -22,24 +22,35 @@ export class ProjectPageComponent {
   @Input() darkmode!: boolean
   projects:Project[] = [
     {
-      url:"/assets/testimage.jpeg",
+      url:"/assets/brokersphere.jpg",
       title: "Brokersphere",
       description: "Helps real estate agents share referral leads"
     },
     {
-      url:"/assets/testimage.jpeg",
+      url:"/assets/inventory_manager.jpg",
       title: "Inventory Manager",
       description: "Web-based platform for managing inventory for anytype of project"
     },
     {
-      url:"/assets/testimage.jpeg",
-      title: "Talo (In Progress)",
+      url:"/assets/talo.PNG",
+      title: "Talo (Ios App In Progress)",
       description: "Helps 2nd gen immigrants consistenly stay in tune with their cultures"
     },
     {
-      url:"/assets/testimage.jpeg",
+      url:"/assets/connect_four.jpg",
       title: "Connect Four Multiplayer Edition",
       description: "Play against a friend in connect four anytime, anywhere"
+    },
+
+    {
+      url:"/assets/snippets.jpg",
+      title: "Mycodeyourcode.com (In Progress)",
+      description: "Developer platform for quickly finding coding solutions"
+    },
+    {
+      url:"/assets/testimage.jpeg",
+      title: "Codebase Syntax CLI Tool",
+      description: "Generate reports on codebases compliances with your definied coding syntax standards from terminal"
     },
   ]
 

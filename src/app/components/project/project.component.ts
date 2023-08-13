@@ -5,7 +5,7 @@ import { Project } from '../project-page/project-page.component';
   selector: 'app-project',
   template: `
     <div class="project">
-      <img src="/assets/testimage.jpeg">
+      <img [src]="project.url">
       <div class="project-bottomdiv">
         <div class="project-info">
           <h1>{{project.title}}</h1>
