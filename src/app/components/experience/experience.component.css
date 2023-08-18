@@ -22,3 +22,14 @@
 .current {
   color: #00E100;
 }
+
+@media (max-width: 501px) {
+  .work-experience {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h1 {
+    font-size: max(17px,4vw);
+  }
+}

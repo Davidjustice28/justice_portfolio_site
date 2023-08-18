@@ -5,7 +5,7 @@ import { PAGE, PageService } from 'src/app/page.service';
   selector: 'app-menu-bar',
   template: `
     <div id="menu-bar" [ngClass]="{darkMode:darkmode, lightMode: !darkmode}" >
-      <img src="/assets/profile_img.jpg" (click)="handleDropdownVisibility()"/>
+      <img src="assets/profile_img.jpg" (click)="handleDropdownVisibility()"/>
       <ul [ngClass]="{menuVisible: menuVisible, menuHidden: !menuVisible, lightMode: !darkmode}">
         <li (click)="routeToAboutPage()" [ngClass]="{darkModeLi: darkmode, lightModeLi: !darkmode}">About Me</li>
         <li (click)="routeToExperiencePage()" [ngClass]="{darkModeLi: darkmode, lightModeLi: !darkmode}">Experience</li>

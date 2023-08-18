@@ -1,7 +1,9 @@
 import { Component, Input } from '@angular/core';
 
 export interface Project {
-  url: string,
+  github: string,
+  liveLink: string,
+  imageUrl: string,
   title:string,
   description: string
 }
@@ -22,36 +24,45 @@ export class ProjectPageComponent {
   @Input() darkmode!: boolean
   projects:Project[] = [
     {
-      url:"/assets/brokersphere.jpg",
-      title: "Brokersphere",
-      description: "Helps real estate agents share referral leads"
-    },
-    {
-      url:"/assets/inventory_manager.jpg",
+      github: "https://github.com/Davidjustice28/Inventory-manager",
+      liveLink: "#",
+      imageUrl:"assets/inventory_manager.jpg",
       title: "Inventory Manager",
       description: "Web-based platform for managing inventory for anytype of project"
     },
     {
-      url:"/assets/talo.PNG",
+      github: "https://github.com/Davidjustice28/brokersphere",
+      liveLink: "http://brokersphere.netlify.app/",
+      imageUrl:"assets/brokersphere.jpg",
+      title: "Brokersphere",
+      description: "Helps real estate agents share referral leads"
+    },
+    {
+      github: "NA",
+      liveLink: "#",
+      imageUrl:"assets/testimage.jpeg",
+      title: "Codebase Syntax CLI Tool",
+      description: "Generate reports on codebases compliances with your definied coding syntax standards from terminal"
+    },
+    {
+      github: "https://github.com/talo-app/talo-backend",
+      liveLink: "#",
+      imageUrl:"assets/talo.PNG",
       title: "Talo (Ios App In Progress)",
       description: "Helps 2nd gen immigrants consistenly stay in tune with their cultures"
     },
     {
-      url:"/assets/connect_four.jpg",
-      title: "Connect Four Multiplayer Edition",
-      description: "Play against a friend in connect four anytime, anywhere"
+      github: "https://github.com/Davidjustice28/connect-four",
+      liveLink: "https://davidjustice28.github.io/connect-four/",
+      imageUrl:"assets/connect_four.jpg",
+      title: "Connect Four Browser Edition",
+      description: "Play old-school connect four in the browser"
     },
-
-    {
-      url:"/assets/snippets.jpg",
-      title: "Mycodeyourcode.com (In Progress)",
-      description: "Developer platform for quickly finding coding solutions"
-    },
-    {
-      url:"/assets/testimage.jpeg",
-      title: "Codebase Syntax CLI Tool",
-      description: "Generate reports on codebases compliances with your definied coding syntax standards from terminal"
-    },
+    // {
+    //   url:"assets/snippets.jpg",
+    //   title: "Mycodeyourcode.com (In Progress)",
+    //   description: "Developer platform for quickly finding coding solutions"
+    // },
   ]
 
 }

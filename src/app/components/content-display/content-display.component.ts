@@ -34,17 +34,17 @@ export class ContentDisplayComponent implements OnInit{
   checkIfProjectsPage(): boolean {
     return this.currentPage === PAGE.PROJECTS
   }
-
+  // pages used to alternate between white and black but based off feedback all dark theme
   checkIfMenuShouldBeDark(): boolean {
     switch(this.currentPage) {
       case PAGE.ABOUT:
         return true
       case PAGE.EXPERIENCE:
-        return false
+        return true
       case PAGE.PROJECTS:
         return true
       case PAGE.CONTACT:
-        return false
+        return true
     }
   }
 }

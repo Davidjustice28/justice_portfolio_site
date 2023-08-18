@@ -108,6 +108,9 @@ ul {
 
   li:hover {
     text-decoration: underline;
+    text-decoration-color: #BC13FE;
+    text-decoration-thickness: 3px;
+    text-decoration-skip-ink: none;
   }
 
   .darkMode {
