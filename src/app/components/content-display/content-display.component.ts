@@ -9,7 +9,6 @@ import { PAGE, PageService } from 'src/app/page.service';
       <app-about-page *ngIf='checkIfAboutPage()' [darkmode]="true"></app-about-page>
       <app-experience-page *ngIf='checkIfExperiencePage()' [darkmode]="false"></app-experience-page>
       <app-project-page *ngIf='checkIfProjectsPage()' [darkmode]="true"></app-project-page>
-      <app-contact-page *ngIf='checkIfContactPage()' [darkmode]="false"></app-contact-page>
     </div>
   `,
   styleUrls: ['./content-display.component.css']
@@ -25,9 +24,7 @@ export class ContentDisplayComponent implements OnInit{
   checkIfAboutPage(): boolean {
     return this.currentPage === PAGE.ABOUT
   }
-  checkIfContactPage(): boolean {
-    return this.currentPage === PAGE.CONTACT
-  }
+ 
   checkIfExperiencePage(): boolean {
     return this.currentPage === PAGE.EXPERIENCE
   }
@@ -43,7 +40,7 @@ export class ContentDisplayComponent implements OnInit{
         return true
       case PAGE.PROJECTS:
         return true
-      case PAGE.CONTACT:
+      default:
         return true
     }
   }

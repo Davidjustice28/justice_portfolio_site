@@ -10,7 +10,6 @@ import { PAGE, PageService } from 'src/app/page.service';
         <li (click)="routeToAboutPage()" [ngClass]="{darkModeLi: darkmode, lightModeLi: !darkmode}">About Me</li>
         <li (click)="routeToExperiencePage()" [ngClass]="{darkModeLi: darkmode, lightModeLi: !darkmode}">Experience</li>
         <li (click)="routeToProjectsPage()" [ngClass]="{darkModeLi: darkmode, lightModeLi: !darkmode}">Projects</li>
-        <li (click)="routeToContactPage()" [ngClass]="{darkModeLi: darkmode, lightModeLi: !darkmode}">Contact Me</li>
       </ul>
     </div>
   `,
@@ -40,10 +39,6 @@ export class MenuBarComponent {
   }
   routeToExperiencePage() {
     this.pageService.changePage(PAGE.EXPERIENCE)
-    this.handleDropdownVisibility()
-  }
-  routeToContactPage() {
-    this.pageService.changePage(PAGE.CONTACT)
     this.handleDropdownVisibility()
   }
   

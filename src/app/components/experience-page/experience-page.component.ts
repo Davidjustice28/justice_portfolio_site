@@ -38,7 +38,7 @@ export class ExperiencePageComponent {
       company_name: "Blyss Dating",
       position: "Backend Developer",
       currentlyWorkingHere: true,
-      milestone: "Facilitated converting backend codebase from vanilla JavaScript to a secure Typescript backend and conducted interviews for new developers joining team",
+      milestone: "Facilitated converting backend codebase from vanilla JavaScript to a secure Typescript backend, conducted interviews for new developers joining team, and implemented facial recognition and identity verification through AWS Rekognition API",
       technologies: [{name: "Javascript", url: "assets/javascript.png"}, {name: "Typescript", url: "assets/typescript.png"}, {name: "Express", url: "assets/express.png"}, {name: "React Native", url: "assets/react-native.png"}]
     },
     {

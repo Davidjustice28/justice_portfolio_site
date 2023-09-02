@@ -32,9 +32,9 @@ export class ProjectPageComponent {
     },
     {
       github: "https://github.com/Davidjustice28/Inventory-manager",
-      liveLink: "#",
+      liveLink: "https://justice-inventory-manager.netlify.app/",
       imageUrl:"assets/inventory_manager.jpg",
-      title: "Inventory Manager",
+      title: "Inventory Manager (Pending)",
       description: "Web-based platform for managing inventory for anytype of project"
     },
     {
@@ -48,21 +48,23 @@ export class ProjectPageComponent {
       github: "https://github.com/talo-app/talo-backend",
       liveLink: "#",
       imageUrl:"assets/talo.PNG",
-      title: "Talo (Ios App In Progress)",
+      title: "Talo (Ios App Pending)",
       description: "Helps 2nd gen immigrants consistenly stay in tune with their cultures"
     },
     {
       github: "https://github.com/Davidjustice28/connect-four",
       liveLink: "https://davidjustice28.github.io/connect-four/",
-      imageUrl:"assets/connect_four.jpg",
-      title: "Connect Four Browser Edition",
+      imageUrl:"assets/connect-four.png",
+      title: "Connect Four",
       description: "Play old-school connect four in the browser"
     },
-    // {
-    //   url:"assets/snippets.jpg",
-    //   title: "Mycodeyourcode.com (In Progress)",
-    //   description: "Developer platform for quickly finding coding solutions"
-    // },
+    {
+      github: "https://github.com/Davidjustice28/coalition-skilltest/tree/main",
+      liveLink: "https://davidjustice28.github.io/coalition-skilltest/",
+      imageUrl:"assets/landingpage.png",
+      title: "Landing Page",
+      description: "Converted PSD Mockup To Pure Html Page"
+    },
   ]
 
 }

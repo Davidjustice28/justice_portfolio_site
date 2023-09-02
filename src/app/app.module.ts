@@ -11,7 +11,6 @@ import { EmailFormComponent } from './components/email-form/email-form.component
 import { AboutPageComponent } from './components/about-page/about-page.component';
 import { ProjectPageComponent } from './components/project-page/project-page.component';
 import { ExperiencePageComponent } from './components/experience-page/experience-page.component';
-import { ContactPageComponent } from './components/contact-page/contact-page.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { ExperienceTechnologyComponent } from './components/experience-technology/experience-technology.component';
 
@@ -26,7 +25,6 @@ import { ExperienceTechnologyComponent } from './components/experience-technolog
     AboutPageComponent,
     ProjectPageComponent,
     ExperiencePageComponent,
-    ContactPageComponent,
     ExperienceComponent,
     ExperienceTechnologyComponent
   ],
