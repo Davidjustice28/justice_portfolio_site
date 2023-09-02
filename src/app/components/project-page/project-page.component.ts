@@ -24,6 +24,13 @@ export class ProjectPageComponent {
   @Input() darkmode!: boolean
   projects:Project[] = [
     {
+      github: "https://github.com/Davidjustice28/codeaudit",
+      liveLink: "#",
+      imageUrl:"assets/testimage.jpeg",
+      title: "Codebase Syntax CLI Tool",
+      description: "Generate reports on codebases compliances with your definied coding syntax standards from terminal"
+    },
+    {
       github: "https://github.com/Davidjustice28/Inventory-manager",
       liveLink: "#",
       imageUrl:"assets/inventory_manager.jpg",
@@ -36,13 +43,6 @@ export class ProjectPageComponent {
       imageUrl:"assets/brokersphere.jpg",
       title: "Brokersphere",
       description: "Helps real estate agents share referral leads"
-    },
-    {
-      github: "NA",
-      liveLink: "#",
-      imageUrl:"assets/testimage.jpeg",
-      title: "Codebase Syntax CLI Tool",
-      description: "Generate reports on codebases compliances with your definied coding syntax standards from terminal"
     },
     {
       github: "https://github.com/talo-app/talo-backend",

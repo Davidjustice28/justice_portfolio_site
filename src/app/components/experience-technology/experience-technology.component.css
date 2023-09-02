@@ -9,3 +9,16 @@ img {
 .normalIcon {
   width: 50px;
 }
+
+@media (max-width:501px) {
+  img {
+    height: 30px;
+  }
+  .smallIcon {
+    width: 15px;
+  }
+  
+  .normalIcon {
+    width: 30px;
+  }
+}

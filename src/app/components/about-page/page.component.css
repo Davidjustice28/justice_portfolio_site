@@ -16,7 +16,7 @@ h1, p {
 h1 {
   font-size: 45px;
   margin-bottom: 25px;
-  color: #BC13FE;
+  color: white;
 }
 
 p {
@@ -73,7 +73,8 @@ button:hover {
 
   p {
     margin-top: -20px;
-    font-size: 20px;
+    font-size: 22px;
+    width: 85%;
   }
 }
 
