@@ -12,8 +12,8 @@ import { Project } from '../project-page/project-page.component';
           <p>{{project.description}}</p>
         </div>
         <div class="project-buttons">
-          <button><a [href]="project.github"><img src="assets/github-mark.png"></a></button>
-          <button><a [href]="project.liveLink">{{buttonText}}</a></button>
+          <button *ngIf="project.github !== '#'"><a [href]="project.github"><img src="assets/github-mark.png"></a></button>
+          <button *ngIf="project.liveLink !== '#'"><a [href]="project.liveLink">{{buttonText}}</a></button>
         </div>
       </div>
     </div>
@@ -35,7 +35,7 @@ export class ProjectComponent implements OnInit {
     }
     else
     {
-      this.buttonText = "Live";
+      this.buttonText = "Site";
     }
   }
 }

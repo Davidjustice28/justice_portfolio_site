@@ -24,6 +24,13 @@ export class ProjectPageComponent {
   @Input() darkmode!: boolean
   projects:Project[] = [
     {
+      github: "#",
+      liveLink: "https://productlamb.com",
+      imageUrl:"assets/productlamb_screenshot.png",
+      title: "ProductLamb",
+      description: "SaaS platform that provides an AI-powered Product Manager for startups"
+    },
+    {
       github: "https://github.com/Davidjustice28/codeaudit",
       liveLink: "#",
       imageUrl:"assets/testimage.jpeg",
@@ -34,36 +41,15 @@ export class ProjectPageComponent {
       github: "https://github.com/Davidjustice28/Inventory-manager",
       liveLink: "https://justice-inventory-manager.netlify.app/",
       imageUrl:"assets/inventory_manager.jpg",
-      title: "Inventory Manager (Pending)",
-      description: "Web-based platform for managing inventory for anytype of project"
+      title: "Inventory Manager",
+      description: "Web-based platform for managing inventory for any type of project"
     },
     {
-      github: "https://github.com/Davidjustice28/brokersphere",
-      liveLink: "http://brokersphere.netlify.app/",
-      imageUrl:"assets/brokersphere.jpg",
-      title: "Brokersphere",
-      description: "Helps real estate agents share referral leads"
-    },
-    {
-      github: "https://github.com/talo-app/talo-backend",
-      liveLink: "#",
-      imageUrl:"assets/talo.PNG",
-      title: "Talo (Ios App Pending)",
-      description: "Helps 2nd gen immigrants consistenly stay in tune with their cultures"
-    },
-    {
-      github: "https://github.com/Davidjustice28/connect-four",
-      liveLink: "https://davidjustice28.github.io/connect-four/",
-      imageUrl:"assets/connect-four.png",
-      title: "Connect Four",
-      description: "Play old-school connect four in the browser"
-    },
-    {
-      github: "https://github.com/Davidjustice28/coalition-skilltest/tree/main",
-      liveLink: "https://davidjustice28.github.io/coalition-skilltest/",
-      imageUrl:"assets/landingpage.png",
-      title: "Landing Page",
-      description: "Converted PSD Mockup To Pure Html Page"
+      github: "#",
+      liveLink: "https://taloapp.com",
+      imageUrl:"assets/talo_screenshot.png",
+      title: "Talo (iOS App)",
+      description: "Helps 2nd gen immigrants consistently stay in tune with their cultures",
     },
   ]
 
