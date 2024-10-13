@@ -4,18 +4,15 @@
   position: relative;
 }
 
-
-
-
 img {
   object-fit: cover;
   object-position: center;
 }
+
 li {
   list-style: none;
   cursor: pointer;
 }
-
 
 ul {
   display: flex;
@@ -27,6 +24,11 @@ ul {
   text-align: center;
   gap: 20px;
 }
+
+.expanded {
+  transform: rotate(90deg);
+}
+
 @media (max-width:500px) {
   .menuVisible {
     display: flex;
@@ -84,11 +86,25 @@ ul {
     color: white;
   }
 
+  .avatar-img {
+    display: none;
+  }
+
+  .menu-img {
+    display: block;
+    transition: 0.2s;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
 
   img {
     width: 30px;
     height: 30px;
-    border-radius: 15px;
+    margin-right: auto;
+    margin-left: 20px;
   }
 }
 
@@ -105,6 +121,14 @@ ul {
   img {
     margin-top: 20px;
     margin-bottom: 150px;
+  }
+
+  .menu-img {
+    display: none;
+  }
+
+  .avatar-img {
+    display: block;
   }
 
   li:hover {
@@ -131,5 +155,8 @@ ul {
     width: 70px;
     height: 70px;
     border-radius: 35px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/src/assets/profile_img.jpg);
   }
 }

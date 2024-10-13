@@ -30,8 +30,8 @@ export class ExperiencePageComponent {
     {
       company_name: "Qualiti AI",
       currentlyWorkingHere: true,
-      position: "Software Engineer I",
-      milestone: `Enabled company to be able to onboard clients by implementing the complete redesign of the customer portal.
+      position: "Software Engineer II",
+      milestone: `Implementing the complete redesign of the customer portal. Currently, converting the frontend from Angular to React.
       Improved customer experience refactoring test and test plan tagging ux, improving webhook emails notifications, and redesigning account setup flow.
       `,
       technologies: [{name: "Typescript", url: "assets/typescript.png"}, {name: "Angular", url: "assets/angular.png"}, {name: "PostgreSql", url: "assets/postgresql.png"}, {name: "NestJS", url: "assets/nestjs.png"}, {name: "AWS", url: "assets/aws.png"}, {name: "K8s", url: "assets/kubernetes.png"},  {name: "Jest", url: "assets/jest.png"}]

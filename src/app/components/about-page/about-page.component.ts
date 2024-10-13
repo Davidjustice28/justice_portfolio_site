@@ -9,8 +9,8 @@ import { Component, Input} from '@angular/core';
       While most of my professional experience is based around the JavaScript ecosystem, I am very comfortable with Python and Go. 
       </p>
       <p id="body-text">Some of my experience includes: maintaining both Angular & React codebases, 
-        integrating with countless third-party APIs like Twilio & Plaid, writing a crap load of unit tests with Jest & Mocha, utilizing Docker and K8s to containerize applications, and 
-        Leading a vanilla JS to TypeScript codebase migration. On a personal note, I am a husband and father awesome kids. In my free time, I am like to hike, play basketball, watch UFC matches, and read. Currently I reside in the Lehi, Utah area.
+        integrating with countless third-party APIs like Twilio & Plaid, writing a crap load of unit tests with Jest & Playwright, utilizing Docker and K8s to containerize applications, and 
+        Leading a Angular codebase to React. On a personal note, I am a husband and father awesome kids. In my free time, I am like to hike, play basketball, watch UFC matches, and read. Currently I reside in the Lehi, Utah area.
       </p>
       <!-- <h2 style="width: 70%; margin: 0;">Some of my experiences includes:</h2>
         <ul class="history-list">

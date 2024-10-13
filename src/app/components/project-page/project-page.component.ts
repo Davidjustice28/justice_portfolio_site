@@ -24,9 +24,9 @@ export class ProjectPageComponent {
   @Input() darkmode!: boolean
   projects:Project[] = [
     {
-      github: "#",
-      liveLink: "https://productlamb.com",
-      imageUrl:"assets/productlamb_screenshot.png",
+      github: "https://github.com/Davidjustice28/productlamb-app",
+      liveLink: "#",
+      imageUrl:"assets/productlamb.jpg",
       title: "ProductLamb",
       description: "SaaS platform that provides an AI-powered Product Manager for startups"
     },
