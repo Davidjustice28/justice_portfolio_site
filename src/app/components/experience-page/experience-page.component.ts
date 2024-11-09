@@ -16,7 +16,7 @@ export interface Experience {
   selector: 'app-experience-page',
   template: `
    <div [ngClass]="{darkMode: darkmode, lightMode: darkmode, page:true}">
-      <h1>Professional Experience</h1>
+      <h1>Work Experience</h1>
       <div id="experiences-div">
         <app-experience *ngFor="let experience of experiences" [experience]="experience"/>
       </div>

@@ -9,9 +9,12 @@
 }
 
 h1 {
-  text-align: center;
-  margin-top: 25px;
-  margin-bottom: 10px;
+  width: 80%;
+  text-decoration: underline;
+  text-align: left;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  font-size: 24px;
 }
 
 #experiences-div {
@@ -40,6 +43,10 @@ h1 {
     min-height: 90vh;
     width: 100vw;
     padding-bottom: 50px;
+  }
+
+  h1 {
+    margin-bottom: 0px;
   }
 }
 

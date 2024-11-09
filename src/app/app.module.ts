@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { ContentDisplayComponent } from './components/content-display/content-display.component';
 import { ProjectComponent } from './components/project/project.component';
-import { SocialIconsComponent } from './components/social-icons/social-icons.component';
 import { EmailFormComponent } from './components/email-form/email-form.component';
 import { AboutPageComponent } from './components/about-page/about-page.component';
 import { ProjectPageComponent } from './components/project-page/project-page.component';
@@ -20,7 +19,6 @@ import { ExperienceTechnologyComponent } from './components/experience-technolog
     MenuBarComponent,
     ContentDisplayComponent,
     ProjectComponent,
-    SocialIconsComponent,
     EmailFormComponent,
     AboutPageComponent,
     ProjectPageComponent,

@@ -1,5 +1,5 @@
 img {
-  height: 50px;
+  height: 30px;
 }
 
 .smallIcon {
@@ -7,7 +7,7 @@ img {
 }
 
 .normalIcon {
-  width: 50px;
+  width: 30px;
 }
 
 @media (max-width:501px) {
