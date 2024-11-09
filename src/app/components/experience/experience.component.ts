@@ -5,7 +5,6 @@ import { Experience } from '../experience-page/experience-page.component';
   selector: 'app-experience',
   template: `
     <div class="work-experience">
-      <img/>
       <h1>{{experience.company_name}}: {{experience.position}} <span style="{font-style: italic;}" [ngClass]="{current: experience.currentlyWorkingHere, past: !experience.currentlyWorkingHere}">- {{experience.currentlyWorkingHere ? "Currently" : "Past"}}</span></h1>
       <p>{{experience.milestone}}</p>
       <div class="experience-technologies">

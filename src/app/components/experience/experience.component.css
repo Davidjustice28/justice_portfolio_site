@@ -1,11 +1,30 @@
+
 .work-experience {
   border: 2px solid black;
   border-radius: 10px;
   text-align: center;
   width: 100%;
-  padding: 10px;
+  padding: 20px;
   background-color: white;
   color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  h1, p {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  p {
+    font-size: 14px;
+  }
 }
 
 
@@ -13,7 +32,7 @@
   display: flex;
   gap: 20px;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
 .past {
